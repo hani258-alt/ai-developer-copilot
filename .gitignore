@@ -1,0 +1,51 @@
+# Claude AI data
+.claude/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and environment
+.env
+.env.local
+.env.*.local
+secrets/
+
+# Database and vector stores
+chroma_db/
+faiss_index/
+knowledge_bases/*/faiss_index/
+knowledge_bases/*/documents/
+
+# Conversation history
+conversation_history/
+
+# Temporary files
+temp_uploads/
+temp_projects/
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
